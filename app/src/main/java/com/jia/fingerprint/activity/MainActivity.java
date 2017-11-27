@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity implements FingerListener {
         tv_name = (TextView) findViewById(R.id.tv_name);
         tv_pwd = (TextView) findViewById(R.id.tv_pwd);
 
-//        tv_name.setText("手机号：  " + SharedPreferencesUtils.getData(mContext, "phone", "无数据"));
-//        tv_pwd.setText("密  码：  " + SharedPreferencesUtils.getData(mContext, "pwd", "无数据"));
+        tv_name.setText("手机号：  " + SharedPreferencesUtils.getData(mContext, "phone", "无数据"));
+        tv_pwd.setText("密  码：  " + SharedPreferencesUtils.getData(mContext, "pwd", "无数据"));
 
         jsFingerUtils = new JsFingerUtils(mContext);
 
